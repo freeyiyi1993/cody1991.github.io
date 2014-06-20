@@ -1,0 +1,55 @@
+
+.main-section .panel{
+	position:relative;
+	padding-bottom:60px;
+	border-width:0;
+	background:rgba(242,242,242,0.7);
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.main-section .panel .intro-title{
+	font-family:'Microsoft YaHei';
+	margin-bottom:20px;
+	color:rgba(10,110,150,1);
+	padding-bottom:5px;
+	border-bottom:5px solid rgba(10,110,150,0.9);
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+.main-section .panel .intro-max-height{
+	font-family:'Microsoft YaHei';
+	text-indent:20px;
+	color:rgba(0,0,0,1);
+}
+.main-section .panel .learn-more{
+	position:absolute;
+	bottom:10px;
+	right:19px;
+}
+
+ul.off-canvas-list li label{
+	padding: 0.8rem 0.9375rem;
+	cursor:default;
+}
+
+
+a.login{
+	margin-bottom:1px;
+}
+
+
+
+[data-abide] .error small.error, [data-abide] span.error, [data-abide] small.error{
+	font-size:0.8rem;
+	font-style:normal;
+}
+form {
+	margin: 0 0 0;
+}
+.reveal-modal button{
+	margin-bottom:0;
+}
+.tab-bar-section{
+	text-align:left;
+}
