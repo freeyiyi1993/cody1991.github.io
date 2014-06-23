@@ -14,8 +14,6 @@ $(document).ready(function(){
 	left_off_canvas_menu.append('<li><a href="jquery-plugin2.html">轮播类</a></li>');
 	left_off_canvas_menu.append('<li><a href="jquery-plugin3.html">单页全屏类</a></li>');
 
-
-
-
-
+	left_off_canvas_menu.append('<li><label>个人网页</label></li>');
+	left_off_canvas_menu.append('<li><a href="resume.html">个人简历</a></li>');
 });
