@@ -7,7 +7,7 @@
 	margin-top:10px;
 	margin-bottom:10px;
 }
-.main-section .panel .intro-title{
+.intro-title{
 	font-family:'Microsoft YaHei';
 	margin-bottom:20px;
 	color:rgba(10,110,150,1);
@@ -52,4 +52,9 @@ form {
 }
 .tab-bar-section{
 	text-align:left;
+}
+
+
+.resume p{
+	font-family:'Microsoft YaHei';
 }
