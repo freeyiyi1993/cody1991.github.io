@@ -30,7 +30,7 @@
 
 ul.off-canvas-list li label{
 	padding: 0.8rem 0.9375rem;
-	cursor:default;
+	cursor:pointer;
 }
 
 
@@ -57,4 +57,21 @@ form {
 
 .resume p{
 	font-family:'Microsoft YaHei';
+}
+
+.github_page{
+	position:fixed;
+	left:5px;
+	bottom:0;
+	width:30px;
+	height:30px;
+	background:#0090ff url('http://www.bootcss.com/p/sco.js/assets/img/blacktocat.png') no-repeat;
+	background-size:100% 100%;
+	border-radius:3px;
+	opacity:0.8;
+}
+.github_page a{
+	display:block;
+	width:30px;
+	height:30px;
 }
