@@ -6,12 +6,11 @@
 		autoplay = true,
 		playlist = [
 		{
-title: '肩上蝶',
-artist: '金志文',
-album: '肩上蝶',
+title: '明明就',
+artist: '周杰伦',
+album: '十二新作',
 cover:'http://cdn.duitang.com/uploads/item/201203/11/20120311085629_sZsze.jpeg',
-mp3: 'http://dxsn.gongzuo.in/bowen/HTML5player/music/jianshangdie.mp3',
-ogg: 'http://dxsn.gongzuo.in/bowen/HTML5player/music/jianshangdie.ogg'
+mp3: '../source/zhoujielun_1.mp3'
 },
 {
 title: '我可以抱你吗',
