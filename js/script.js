@@ -10,7 +10,7 @@ title: '明明就',
 artist: '周杰伦',
 album: '十二新作',
 cover:'http://cdn.duitang.com/uploads/item/201203/11/20120311085629_sZsze.jpeg',
-mp3: '../source/zhoujielun_1.mp3'
+mp3: 'http://cody1991.github.io/source/zhoujielun_1.mp3'
 },
 {
 title: '我可以抱你吗',
