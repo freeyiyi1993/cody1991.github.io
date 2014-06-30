@@ -7,8 +7,15 @@ $(document).ready(function(){
 		var offCanvas_id = $(this).attr('id');
 	  var flag = $('.'+offCanvas_id).css('display');
 		$('.link').slideUp();
-		if(flag!='block'){
+		//alert(flag);
+		if(flag!='list-item'){
 			$('.'+offCanvas_id).slideDown();
 		}
+	});
+
+	$('.github_page').click(function(e){
+		var r=confirm("是否确认跳转到我的Github主页？");
+		if (r==false)
+			e.preventDefault();
 	});
 });
