@@ -24,8 +24,10 @@ h3.intro-title{
 }
 .main-section .panel .learn-more{
 	position:absolute;
-	bottom:10px;
+	bottom:13px;
 	right:19px;
+	border-radius:21px;
+	padding:0.7rem 1rem;
 }
 
 ul.off-canvas-list li label{
