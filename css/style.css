@@ -26,10 +26,20 @@ h3.intro-title{
 	position:absolute;
 	bottom:13px;
 	right:19px;
-	border-radius:21px;
+	border-radius:5px;
 	padding:0.7rem 1rem;
+	background: transparent;
+	border: 2px solid #007095;
+	color: #007095;
+	font-weight: 700;
+	-webkit-transition:0.2s all;
+	moz-transition:0.2s all;
+	transition:0.2s all;
 }
-
+.main-section .panel .learn-more:hover{
+	border-color:transparent;
+	-webkit-transform:scale(1.1) rotate(5deg);
+}
 ul.off-canvas-list li label{
 	padding: 0.8rem 0.9375rem;
 	cursor:pointer;
@@ -100,3 +110,8 @@ form {
 75%{-moz-transform:translateX(-5%) rotate(-1deg)}
 100%{-moz-transform:translateX(0%)}
 }
+
+
+
+
+

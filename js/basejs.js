@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	
 	var window_height = $(window).height();
 	$('.main-section').css('min-height',window_height-70);
 
@@ -18,4 +19,5 @@ $(document).ready(function(){
 		if (r==false)
 			e.preventDefault();
 	});
+
 });
