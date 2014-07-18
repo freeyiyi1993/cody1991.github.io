@@ -115,3 +115,14 @@ form {
 
 
 
+.bgm{
+	-webkit-transition:width 0.5s;
+	position:fixed;
+	left:60px;
+	bottom:10px;
+	width:46px;
+	height:40px;
+}
+.bgm:hover{
+	width:300px;
+}
