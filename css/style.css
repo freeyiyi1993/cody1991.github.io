@@ -6,6 +6,7 @@
 	background:rgba(242,242,242,0.7);
 	margin-top:10px;
 	margin-bottom:10px;
+	border-radius:10px;
 }
 h3.intro-title{
 	font-family:'Microsoft YaHei';
@@ -125,4 +126,22 @@ form {
 }
 .bgm:hover{
 	width:300px;
+}
+
+
+
+.main-section .panel:hover{
+	-webkit-transition:all 0.8s;
+	background:rgba(0,0,0,0.7);
+}
+.main-section .panel:hover h3.intro-title{
+	border-bottom-color:#fff;
+	color:#fff;
+}
+.main-section .panel:hover .intro-max-height{
+	color:#fff;
+}
+.main-section .panel:hover .learn-more{
+	color:#fff;
+	border-color:#fff;
 }
